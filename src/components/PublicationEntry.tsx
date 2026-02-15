@@ -34,7 +34,7 @@ export default function PublicationEntry({
                 <span className="text-green-800">Authors:</span> {authors}
             </div>
             <div className="mt-1 text-sm italic text-green-700 font-mono">
-                published in: "{journal}"
+                published in: {journal}
             </div>
         </div>
     );

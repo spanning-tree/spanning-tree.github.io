@@ -35,7 +35,7 @@ export default function Home() {
                             <span>cat email.sh</span>
                         </div>
                         <div className="text-green-400 font-bold">
-                            echo 'li' | sed 's/^/zekai_/' | sed 's/$/@brown.edu/'
+                            echo li | sed s/^/zekai_/ | sed s/$/@brown.edu/
                         </div>
                     </div>
                 </section>

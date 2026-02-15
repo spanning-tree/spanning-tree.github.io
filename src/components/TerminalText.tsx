@@ -17,6 +17,7 @@ export default function TerminalText({
 }: TerminalTextProps) {
     const [displayedText, setDisplayedText] = useState("");
     const [started, setStarted] = useState(false);
+    const [finished, setFinished] = useState(false);
 
     useEffect(() => {
         const timeout = setTimeout(() => {
@@ -32,6 +33,7 @@ export default function TerminalText({
         const interval = setInterval(() => {
             if (currentIndex >= text.length) {
                 clearInterval(interval);
+                setFinished(true);
                 return;
             }
             currentIndex++;
@@ -44,9 +46,7 @@ export default function TerminalText({
     return (
         <span className={`${className} font-mono`}>
             {displayedText}
-            <span className="animate-pulse border-r-2 border-green-500 ml-1">
-                &nbsp;
-            </span>
+            {!finished && <span className="animate-pulse text-green-500 inline-block w-0 overflow-visible">_</span>}
         </span>
     );
 }
