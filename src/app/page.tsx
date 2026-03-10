@@ -15,7 +15,7 @@ export default function Home() {
                         <TerminalText text="Zekai Li" typingSpeed={150} />
                     </h1>
                     <p className="text-xl text-green-600">
-                        MSc Student at Brown University
+                        Incoming PhD Student at Brown University
                     </p>
                     <div className="prose max-w-none text-green-600/90 leading-relaxed border-l-2 border-green-900 pl-4 py-2">
                         <p className="mb-4">
