@@ -19,7 +19,7 @@ export default function Home() {
                     </p>
                     <div className="prose max-w-none text-green-600/90 leading-relaxed border-l-2 border-green-900 pl-4 py-2">
                         <p className="mb-4">
-                            <span className="text-green-800">{">"}</span> I am a Master's student in Computer Science at Brown University. My research interests lie in <span className="text-green-300">Formal Methods</span>, <span className="text-green-300">Programming Languages</span>, <span className="text-green-300">Artificial Intelligence</span>, and <span className="text-green-300">Systems</span>. I am a member of <a href="https://atlas.cs.brown.edu/" target="_blank" rel="noreferrer" className="text-green-300 hover:text-green-200 hover:underline decoration-dashed">Brown Atlas Group</a>.
+                            <span className="text-green-800">{">"}</span> I am an incoming PhD student in Computer Science at Brown University. My research interests lie in <span className="text-green-300">Formal Methods</span>, <span className="text-green-300">Artificial Intelligence</span>, and <span className="text-green-300">Systems</span>. I am a member of <a href="https://atlas.cs.brown.edu/" target="_blank" rel="noreferrer" className="text-green-300 hover:text-green-200 hover:underline decoration-dashed">Brown Atlas Group</a>.
                         </p>
                         <p className="mb-4">
                             <span className="text-green-800">{">"}</span> Previously, I completed my B.Sc. in Computer Science at University of Nottingham.
